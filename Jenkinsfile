@@ -60,7 +60,7 @@ pipeline {
 
         stage('Deploy to Production') {
             steps {
-                echo "Deploying the application to the production environment specified by the environment variable: ${env.PRODUCTION_ENVIRONMENT}"
+                echo "Deploying the application to the production  specified by the environment variables: ${env.PRODUCTION_ENVIRONMENT}"
             }
         }
     }
