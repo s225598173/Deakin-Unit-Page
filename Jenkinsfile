@@ -3,7 +3,7 @@ pipeline {
     
     environment {
         DIRECTORY_PATH = "/path/to/code" 
-        TESTING_ENVIRONMENT = "Test-Env"
+        TESTING_ENVIRONMENT = "Test-Environment"
         PRODUCTION_ENVIRONMENT = "Aayushree"  
     }
     
